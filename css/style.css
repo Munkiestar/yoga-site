@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #077054;
+}
+
+/* header */
+
+header{
+	width: 960px;
+	height: 140px;
+	margin: 0 auto;
+	/*background: #077054;*/
+}	
+
+header a{
+	text-decoration: none;
+	text-align: center;
+	
+	font-size: 1.6rem;
+}
+
+header h1{
+	color: #99fa99;
+/*	margin-bottom: .6rem;*/
+	padding-top: 25px;
+	padding-bottom: 15px;
+	font-weight: lighter;
+}
+
+header h3{
+	color: #b6d8cf;
+	font-size: 1.65rem;
+	text-transform: uppercase;
+	font-weight: lighter;
+
+}
+
+/* nav bar */
+
+.nav-bar{
+	width: 960px;
+	
+	margin: 0 auto;
+}
+
+.nav-bar ul{padding: 30px;
+	width: 100%;
+	height: 2rem;text-align: center;
+
+}
+
+.nav-bar ul li{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.nav-bar ul li a{
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 3rem;
+	margin: .3rem 0;
+	color: #b6d8cf;
+}
+
+.hidden a{
+
+	display: none;
+	/*vertical-align: top;*/
+}
+.nav-bar .active{
+	color: #99fa99;
+}
+
+.nav-bar ul li a:hover{
+	color: #d3a3ff;
+}
+
+.right a i:hover{
+	color: #C9E2DB;
+}
+
+
+/* main section*/
+
+
+.container{
+	width: 960px;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: #fff;
+
+}
+
+.content{
+	width: 60%;
+	padding: 1.2rem;
+	float: left;
+}
+
+#main-up{
+	text-align: center;
+	font-size: 6.3rem;
+	padding: 3rem 0;
+	font-weight: lighter;
+	color: #21a51e;
+	text-transform: uppercase;
+}
+
+#border{
+	border-bottom: #d3a3ff 10px solid;
+	width: 28%;
+	margin: 0 auto;
+}
+
+.content #main-down{
+	width: 100%;
+	margin: 0;
+}
+#main-down{
+	width: 100%;
+	padding-top: 3.2rem;
+	font-size: 5.8rem;
+	font-weight: lighter;
+	text-align: center;
+	color: #21a51e;
+}
+
+.image{
+	padding: 6rem;
+}
+
+
+
+
+/* footer */
+
+
+
+footer{
+	width: 960px;
+	height: 144px;
+	margin: 0 auto;
+}
+
+.f-section .left{
+	color: #99fa99;
+	display: inline;
+	padding: 30px 0;
+	float: left;
+}
+
+.left h3{
+	font-size: 1.65rem;
+	font-weight: lighter;
+}
+
+.left small{
+	color: #b6d8cf;
+}
+
+.right{
+	float: right;
+	padding: 30px 0;
+}
+
+.right i{
+	margin-left: 25px;
+	font-size: 2rem;
+	color: #99fa99;
+}
